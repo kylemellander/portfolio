@@ -1,0 +1,93 @@
+// Place all the styles related to the Pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+html, body{
+	font-family: 'Source Sans Pro', sans-serif !important;
+	font-size:1.1em;
+	background:url('/assets/bg.jpg') no-repeat center center fixed;
+	-webkit-background-size: cover;
+ 	-moz-background-size: cover;
+	-o-background-size: cover;
+  background-size: cover;
+	padding-top:50px;
+}
+.ko-hide {
+	display:none;
+}
+/* Heading Formating */
+.ko-subtitle h1, .ko-content h1{
+	font-family: 'Roboto', sans-serif;
+	color:#111;
+	font-size:2.5em;
+}
+.ko-content h2 {
+	font-family: 'Roboto', sans-serif;
+	color:#111;
+	font-size:2em;
+	margin-left: 25px;
+}
+.ko-h2-p {
+	margin-left:25px;
+}
+.ko-content h2 span {
+	font-size:.7em;
+	margin-right:10px;
+	color:#333;
+}
+/*
+color:#111; Top Menu */
+.ko-menu {
+	font-family:'Poppins', sans-serif !important;
+}
+.ko-menu nav {
+	height:70px;
+	font-size:1.1em;
+}
+.ko-menu-subtext{
+	font-size:.55em;
+}
+.ko-menu .logo {
+	max-height:40px;
+}
+.ko-nav-small {
+	display:none;
+	margin-top:18px;
+	float:right;
+}
+.ko-nav-full {
+	float:right;
+}
+@media (max-width:768px) {
+	.ko-nav-full {display:none;}
+	.ko-nav-small {display:inline-block;}
+	.ko-subtitle h1, .ko-content h1 {font-size:1.5em;}
+	.ko-content h2 {font-size: 1.2em;}
+}
+.ko-nav-full a:hover {
+	color:#111 !important;
+}
+/* Frontpage Logo */
+.ko-logo {
+	margin:20px auto 0 auto;
+	padding:10px 0;
+}
+/* Main Content */
+.ko-content {
+	margin-top:140px;
+	background:#fff;
+}
+.ko-article {
+	margin:14px;
+}
+/* Footer */
+.ko-footer {
+	font-size:.7em;
+	margin-bottom: 10px;
+}
+.ko-footer p {
+	margin:2px 0 0 0;
+	padding:0;
+}
+.ko-social-media-icons img{
+  width:24px;
+}
